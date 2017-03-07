@@ -12,7 +12,7 @@
         "https://www.netflix.com/Kids*"
       ],
       "js": [
-        "vendor/jquery-3.1.1.slim.min.js",
+        "vendor/jquery-3.1.1.min.js",
         "script.js"
       ],
       "run_at": "document_start"
