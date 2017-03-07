@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Netfix",
+  "version": "0.1",
+  "permissions": [
+    "https://www.netflix.com/Kids*",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.netflix.com/Kids*"
+      ],
+      "js": [
+        "vendor/jquery-3.1.1.slim.min.js",
+        "script.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "options_page": "options.html"
+}
