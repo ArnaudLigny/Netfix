@@ -18,5 +18,8 @@
       "run_at": "document_start"
     }
   ],
-  "options_page": "options.html"
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  }
 }
